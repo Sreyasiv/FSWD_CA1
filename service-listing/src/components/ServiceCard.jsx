@@ -1,6 +1,6 @@
 import React from "react";
 
-const ServiceCard=((service)=>{
+const ServiceCard=({service})=>{
     return(
        <div className="service">
         <h3>title-{service.title}</h3>
@@ -9,6 +9,6 @@ const ServiceCard=((service)=>{
     </div> 
     )
     
-});
+};
 
 export default ServiceCard;
