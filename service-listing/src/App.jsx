@@ -21,7 +21,7 @@ function App(){
               <h1>Services</h1>
               {Services.map((service) =>(
                 <ServiceCard key={service.id} service={service}/>
-              ))}
+              ))};
               
                 
             </div>
